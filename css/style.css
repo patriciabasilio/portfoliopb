@@ -1,0 +1,237 @@
+ body {
+   font-family: 'Raleway', sans-serif;
+}
+   .icon-top {
+background: #c26257;
+}
+.icon-top a {
+color: #f1fffa;
+font-size: 25px;
+transition: color 1s ease;
+}
+.icon-top a:hover {
+color: #242424;
+}
+.navbar {
+background: #242424!important;
+padding: 10px 20px!important;
+transition: padding 2s ease;
+}
+.navbar-background {
+padding: 2px 20px!important;
+}
+.navbar-brand {
+color: #f1fffa;
+border: 3px solid #c26257;
+font-size: 30px;
+transition: all 2s;
+}
+.navbar-brand:hover {
+background: #c26257;
+color: #242424;
+}
+.navbar-toggler {
+border: 3px solid #c26257;
+padding: 3px;
+}
+.bar1,.bar2,.bar3 {
+width: 23px;
+height: 3px;
+margin: 5px;
+background: #c26257;
+transition: all 0.5s ease;
+}
+.change .bar1 {
+transform: rotate(-45deg) translate(-5px, 6px);
+}
+.change .bar2 {
+opacity: 0;
+}
+.change .bar3 {
+transform: rotate(45deg) translate(-5px, -8px);
+}
+
+.nav-link {
+color: #f1fffa;
+font-size: 25px;
+padding: 10px 20px!important;
+border-radius: 5px;
+transition: background 2s ease;
+}
+.nav-link:hover {
+background: #c26257;
+color: #f1fffa;
+}
+
+.nav-active {
+color: #f1fffa;
+font-size: 25px;
+padding: 10px 20px!important;
+border-radius: 5px;
+background: rgba(42, 145, 52, 0.6);
+transition: background 2s ease;
+}
+.nav-active:hover {
+background: #c26257;
+}
+
+.item-1,.item-2,.item-3 {
+min-height: 60vh;
+clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
+}
+.item-1 {
+background: linear-gradient(to right, rgba(204, 204, 204, 0.6),
+rgba(204, 204, 204, 0.5)), url(../img/APP.jpg) center/cover fixed no-repeat;
+}
+.item-2 {
+background: linear-gradient(to right, rgba(204, 204, 204, 0.6),
+rgba(204, 204, 204, 0.5)), url(../img/img3.jpg) center/cover fixed no-repeat;
+}
+.item-3 {
+background: linear-gradient(to right, rgba(204, 204, 204, 0.6),
+rgba(204, 204, 204, 0.5)), url(../img/img4.jpg) center/cover fixed no-repeat;
+}
+.slide-btn {
+color: #f1fffa;
+border: 2px solid #f1fffa;
+transition: all 1s;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.slide-btn:hover {
+color: #c26257;
+background: #f1fffa;
+border-color: #f1fffa;
+transform: translateY(-7px);
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+.title h1 {
+color: #c26257;
+}
+.title h3 {
+color: #5a5a5a;
+}
+.title-underline {
+height: 5px;
+width: 250px;
+background: #c26257;
+margin: -28px auto 0 auto;
+}
+.title a {
+color: #c26257;
+font-size: 30px;
+padding: 0px 10px;
+display: inline-block;
+background: #f1fffa;
+}
+.skills-icon {
+background: #242424;
+clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);
+transition: all 1s ease;
+}
+.skills-icon:hover {
+background: #c26257;
+}
+.skills-icon span {
+font-size: 100px;
+color: #909090;
+transition: all 1s ease-in-out;
+}
+.skills-icon:hover span {
+color: #f1fffa;
+}
+#about .title a {
+background: #909090;
+}
+#about {
+min-height: 40vh;
+background: #909090;
+clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+#about a {
+color: #f1fffa;
+background: #c26257;
+border: 2px solid #c26257;
+transition: all 1s;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+#about a:hover {
+color: #c26257;
+background: #f1fffa;
+border-color: #f1fffa;
+transform: translateY(-7px);
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+.about-progress {
+min-height: 50vh;
+outline: 5px solid #c26257;
+outline-offset: 10px;
+}
+.progress-bar {
+background: #c26257;
+}
+#projects .card {
+background: transparent!important;
+border: none;
+position: relative;
+}
+#projects .card-img-top {
+border-radius: 0!important;
+}
+.img-container {
+position: relative;
+overflow: hidden;
+background: rgb(125, 125, 125);
+}
+.img-container img {
+transition: all 1s ease-in-out;
+opacity: 1;
+}
+.img-container:hover .project-image {
+opacity: 0.3;
+transform: scale(1.3);
+}
+.search-link {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 4rem;
+color: #c26257;
+transition: margin 1s ease-in-out, color 0.5s ease-in-out, opacity 0.75s ease-in-out; margin-top: -50%; opacity: 0;
+}
+.search-link:hover {
+color: #ffffff;
+}
+.img-container:hover .search-link {
+margin-top: 0;
+opacity: 1;
+}
+#contact {
+background: url(../img/img9.jpg) center/cover fixed no-repeat;
+}
+
+footer {
+background-color: #242424;
+}
+
+footer a {
+color: #ffffff;
+}
+
+footer h5 {
+color: #ffffff;
+}
+#contact button {
+color: #f1fffa;
+background: #c26257;
+border: 2px solid #c26257;
+transition: all 1s;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+#contact button:hover {
+color: #c26257;
+background: #f1fffa;
+border-color: #f1fffa;
+transform: translateY(-7px);
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
